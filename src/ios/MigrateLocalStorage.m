@@ -49,7 +49,7 @@
     target = [target stringByAppendingPathComponent:bundleIdentifier];
 #endif
 
-    target = [target stringByAppendingPathComponent:@"WebKit/WebsiteData/LocalStorage/httpsionic_localhost_0.localstorage"];
+    target = [target stringByAppendingPathComponent:@"WebsiteData/LocalStorage/httpsionic_localhost_0.localstorage"];
 
     // Only copy data if no existing localstorage data exists yet for wkwebview
     if (![[NSFileManager defaultManager] fileExistsAtPath:target]) {
